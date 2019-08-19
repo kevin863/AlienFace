@@ -14,7 +14,7 @@ public class FaceComponent extends JComponent{
 		   Ellipse2D.Double head = new Ellipse2D.Double(5,10,100,150);
 		   g2.draw(head);
 
-		   g2.setColor(Color.GREEN);
+		   g2.setColor(Color.BLACK);
 		   Rectangle eye = new Rectangle(25,70,15,15);
 		   g2.fill(eye);
 		   eye.translate(50,0);
