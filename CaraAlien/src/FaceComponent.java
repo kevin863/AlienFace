@@ -15,7 +15,7 @@ public class FaceComponent extends JComponent{
 		   g2.draw(head);
 
 		   g2.setColor(Color.BLACK);
-		   Rectangle eye = new Rectangle(25,70,15,15);
+		   Rectangle eye = new Rectangle(25,70,15,20);
 		   g2.fill(eye);
 		   eye.translate(50,0);
 		   g2.fill(eye);
